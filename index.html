@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sonnaria — treinamento em laudos de ultrassom</title>
+<meta name="description" content="Sonnaria: ferramenta educacional para treinar a redação de laudos de ultrassom em português. Offline, sem conta, para Windows.">
+<style>
+  :root {
+    --papel: #FFFDF8; --carvao: #22241E; --terracota: #A24E27;
+    --mute: #6B6A62; --linha: #E7E0D2; --creme: #F7F2E4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--papel); color: var(--carvao);
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    font-size: 16px; line-height: 1.65;
+  }
+  a { color: var(--terracota); }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { border-bottom: 2px solid var(--carvao); padding-bottom: 24px; }
+  .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 22px; }
+  .brand span { font-weight: 600; letter-spacing: 0.2em; font-size: 14px; }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 10px; }
+  .lead { font-size: 18px; color: var(--mute); margin: 0; max-width: 60ch; }
+  h2 { font-size: 20px; margin: 36px 0 8px; }
+  p, li { max-width: 66ch; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  li::marker { color: var(--terracota); }
+  mark { background: #F7EDD8; color: #7a5210; padding: 1px 6px; border-radius: 4px; font-weight: 600; }
+  .aviso {
+    border-left: 3px solid var(--terracota); background: var(--creme);
+    padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 20px 0;
+  }
+  .aviso p { margin: 0; }
+  .cta {
+    display: inline-block; margin-top: 20px; padding: 10px 18px; border-radius: 8px;
+    background: var(--terracota); color: #FFFDF8; text-decoration: none; font-weight: 600;
+  }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0; }
+  dt { font-weight: 600; }
+  dd { margin: 0; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--linha); color: var(--mute); font-size: 13.5px; }
+  @media (max-width: 520px) {
+    h1 { font-size: 28px; }
+    dl { grid-template-columns: 1fr; }
+    dd { margin-bottom: 8px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand">
+    <svg viewBox="0 0 54 54" width="40" height="40" aria-hidden="true">
+      <rect width="54" height="54" rx="13" fill="#B25C36"/>
+      <g transform="translate(7.8 7.8) scale(1.6)">
+        <path d="M4 9.4V14.6M8 6.6V17.4M12 2.8V21.2M16 5V19M20 8V16" stroke="#F7F2E4" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+      </g>
+    </svg>
+    <span>SONNARIA</span>
+  </div>
+  <h1>Treine a redação de laudos de ultrassom</h1>
+  <p class="lead">Ferramenta educacional para estudantes de graduação e pós-graduação e para a
+  educação continuada em saúde. Em português, para Windows, 100% offline.</p>
+  <!-- Depois da aprovação, troque o href pelo link da Store (Partner Center → Product identity → "URL for Windows 10/11"). -->
+  <a class="cta" href="#suporte">Em breve na Microsoft Store</a>
+</header>
+
+<h2>O que é</h2>
+<p>O Sonnaria reproduz o fluxo de um serviço de ultrassom para fins de treinamento: uma Recepção
+com a agenda do dia, a escolha dos exames do paciente simulado, um painel de achados por órgão e
+um editor final de texto livre. O texto do laudo é montado a partir dos achados marcados — frases
+normais, substituições quando um achado alterado entra no lugar da frase normal, conclusões,
+cálculos e classificações (BI-RADS, TI-RADS, O-RADS).</p>
+
+<h2>Recursos</h2>
+<ul>
+  <li>52 modelos de laudo: abdome, ginecologia, obstetrícia, pescoço, vascular, partes moles,
+  urologia e osteoarticular</li>
+  <li>Achados por órgão com campos preenchíveis, medidas com valores de referência e conclusões
+  geradas automaticamente</li>
+  <li>Cálculos integrados: volumes, idade gestacional, percentis, escores e classificações</li>
+  <li>Editor final de texto livre, cópia formatada e exportação em PDF</li>
+  <li>Modelos personalizáveis no editor interno, sem planilhas externas</li>
+  <li>Agenda de treinamento, com importação por arquivo de texto</li>
+  <li>Manual do usuário completo incluído</li>
+</ul>
+
+<div class="aviso">
+  <p><strong>Uso educacional.</strong> O Sonnaria não é um dispositivo médico, não realiza
+  diagnóstico e não se destina ao uso em exames reais. As saídas têm finalidade didática e devem
+  ser conferidas com a literatura e com o docente responsável. Recomenda-se treinar com dados
+  fictícios.</p>
+</div>
+
+<h2>Privacidade</h2>
+<p>Sem conta, sem nuvem, sem telemetria: tudo fica no seu computador. Leia a
+<a href="privacidade.html">Política de Privacidade</a>.</p>
+
+<h2>Requisitos</h2>
+<dl>
+  <dt>Sistema</dt><dd>Windows 10 (versão 1809 ou mais recente) ou Windows 11, 64 bits</dd>
+  <dt>Internet</dt><dd>Não é necessária para usar o aplicativo</dd>
+  <dt>Idioma</dt><dd>Português (Brasil)</dd>
+</dl>
+
+<h2 id="suporte">Suporte</h2>
+<p>Dúvidas, problemas ou sugestões: escreva para <a href="mailto:sonnolink@gmail.com">sonnolink@gmail.com</a>. Descreva o
+que aconteceu e a versão do aplicativo (Configurações → Sobre). <strong>Não envie dados de
+pacientes.</strong></p>
+<p>O manual do usuário abre dentro do próprio aplicativo, em Configurações → Sobre.</p>
+
+<footer>
+  <p>© 2026 Eduardo Portas. Sonnaria — ferramenta educacional de
+  treinamento em redação de laudos. · <a href="privacidade.html">Privacidade</a></p>
+</footer>
+</div>
+</body>
+</html>
